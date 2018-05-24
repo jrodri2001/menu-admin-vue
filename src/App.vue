@@ -28,7 +28,7 @@
         </v-toolbar-side-icon>
       </span>
       <router-link to="/" tag="span" style="cursor: pointer">
-        {{ appTitle }}
+        <h2>{{ appTitle }}</h2>
       </router-link>
       <v-spacer></v-spacer>
       <v-toolbar-items class="hidden-xs-only">
@@ -59,7 +59,7 @@
     data () {
       return {
         // appTitle: 'Menu manager',
-        sidebar: false,
+        sidebar: false
       }
     },
     computed: {
